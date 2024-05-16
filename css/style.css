@@ -5,6 +5,7 @@
     --accentColor: #88bd89;
     --font: 'Karla', sans-serif;
     --fontColor: black;
+    --borderColor: white;
 }
 
 html, body {
@@ -73,7 +74,7 @@ font-family: var(--font);
     text-decoration: none;
     font-size: 1rem;
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
-    border: solid var(--accentColor) 2px;
+    border: solid var(--borderColor) 2px;
 }
 
 .link:hover{
